@@ -1,0 +1,33 @@
+This program utilize Google voice recognition and do some cool stuff on your local client.The program still in pre-alpha phase.I'm doing testing and will update any new feature 
+
+What the program able to do for now
+----------------------------------
+-record voice 3 seconds .
+-retrieve data from Google server
+-Do basic local client function.This will depend on what is linked between script and your system
+
+Future development
+------------------
+-Remove bug 
+-streamline words dictation difference problem and command execution.For now this is done by manually editting vsort file
+-limit the words usage but more function added.
+-More streamline script interaction between the sorting script and local script.
+-More user friendly interface integrate with local script.
+-and more........... :-)
+
+
+
+How to use the program 
+--------------------------
+-Download the zip file.
+-Extract on home folder.
+-Run the setup script
+-Set your keyboard shortcut to "gnome-terminal -x /usr/local/bin/vox"
+-Edit Vsort file to your usage
+-Use the program from your terminal or shortcut .
+
+Contacts:g33k.inc.corp@gmail.com
+Website:www.thegeekyspace.com
+ 
+
+

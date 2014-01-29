@@ -1,0 +1,44 @@
+#!/bin/bash
+
+#echo $1
+#ps | grep vsort >vsort.pid
+case "$1" in
+	'ping server')
+	cd /home/shark_attack/Programming/bash
+	./pi -ping
+	;;
+	
+	'being silver')
+	cd /home/shark_attack/Programming/bash
+	./pi -ping
+	;;
+	
+	
+	
+	'Raspberry Pi login')
+	cd /home/shark_attack/Programming/bashs
+	./pi -ssh
+	;;
+	
+	'remote login')
+	cd /home/shark_attack/Programming/bash
+	./pi -vnc
+	
+	;;
+	
+	'open project')
+	 nautilus ~/Videos/PROJECT
+	
+	;;
+	
+
+	
+	*)
+	echo "Not in selection"
+	echo "Please try speak below selection"
+	echo "[remote login]  [ping server]  [open project] [open bash] "
+	
+    exit 1
+	;;
+esac
+exit 0  

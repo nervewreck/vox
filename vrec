@@ -1,0 +1,16 @@
+#!/bin/bash
+
+ #rec -c 2 voice.flac trim 0 10
+ #rec -r 16000 -q -b 16 speech.flac
+ #rec -r 16000 -b 16 voice.flac trim 0 3 
+#while :
+#   do
+    # TASK 1
+      rec -r 16000 -b 16 voice.flac trim 0 3 
+      #echo $! > "rec_id"
+ #  done
+#done
+
+
+
+ 

@@ -1,0 +1,8 @@
+#!/bin/bash
+#Run this file to install vox voice recognition program
+
+sudo apt-get install sox -y
+cp vox /usr/local/bin
+echo "you need to manually set up keyboard shortcut"
+echo "for steps ,please visit"
+echo "http://www.thegeekyspace.com "

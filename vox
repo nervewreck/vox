@@ -1,0 +1,18 @@
+#!/bin/bash
+
+
+URL="http://www.google.com/speech-api/v1/recognize?lang=en-us&client=chromium&maxresults=10"
+
+cd ~/vox
+ 
+#rec -r 16000 -b 16 voice.flac trim 0 3 
+./vrec 
+  
+wget -q -U "Ninetailfox" --post-file voice.flac --header "Content-Type: audio/x-flac; rate=16000" -O - "$URL" >result  
+RETURN="$(cat result | cut -d\" -f12 )"
+echo "you said :$RETURN"
+./vsort "$RETURN"
+#kill $(cat vsort.pid|cut -d ' ' -f 1)
+$SHELL
+#./vexit
+
