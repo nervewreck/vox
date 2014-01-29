@@ -15,11 +15,31 @@ case "$1" in
 	
 	
 	
-	'Raspberry Pi login')
-	cd /home/shark_attack/Programming/bashs
+	'remote server')
+	cd /home/shark_attack/Programming/bash
 	./pi -ssh
+	
 	;;
 	
+	'remote sofa')
+	cd /home/shark_attack/Programming/bash
+	./pi -ssh
+	
+	;;
+
+	'remote silva')
+	cd /home/shark_attack/Programming/bash
+	./pi -ssh
+	
+	;;
+
+	'remote')
+	cd /home/shark_attack/Programming/bash
+	./pi -ssh
+	
+	;;
+
+
 	'remote login')
 	cd /home/shark_attack/Programming/bash
 	./pi -vnc
@@ -35,10 +55,10 @@ case "$1" in
 	
 	*)
 	echo "Not in selection"
-	echo "Please try speak below selection"
-	echo "[remote login]  [ping server]  [open project] [open bash] "
+	echo "Please use below selection"
+	echo "[remote login]  [ping server]  [open project] [remote server] "
 	
-    exit 1
+        exit 1
 	;;
 esac
-exit 0  
+exit 0
