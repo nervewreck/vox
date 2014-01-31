@@ -1,4 +1,9 @@
 #!/bin/bash
+#!/bin/bash
+#Program function for voice recording
+#Author :Nervewreck
+#Rev: 0.1
+#Website :Www.thegeekyspace.com
 
  #rec -c 2 voice.flac trim 0 10
  #rec -r 16000 -q -b 16 speech.flac

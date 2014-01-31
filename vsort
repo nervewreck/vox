@@ -1,4 +1,11 @@
 #!/bin/bash
+#!/bin/bash
+#Program for voice recognition  task sorting
+#Author :Nervewreck
+#Rev: 0.1
+#Website :Www.thegeekyspace.com
+
+
 
 #echo $1
 #ps | grep vsort >vsort.pid

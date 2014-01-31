@@ -1,4 +1,8 @@
 #!/bin/bash
+#Program for voice recognition using Google search function
+#Author :Nervewreck
+#Rev: 0.1
+#Website :Www.thegeekyspace.com
 
 
 URL="http://www.google.com/speech-api/v1/recognize?lang=en-us&client=chromium&maxresults=10"
