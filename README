@@ -22,7 +22,7 @@ How to use the program
 -Download the zip file.
 -Extract on home folder.
 -Run the setup script
--Set your keyboard shortcut to "gnome-terminal -x /usr/local/bin/vox"
+-Set your keyboard shortcut to "gnome-terminal -e /usr/local/bin/vox"
 -Edit Vsort file to your usage
 -Use the program from your terminal or shortcut .
 
